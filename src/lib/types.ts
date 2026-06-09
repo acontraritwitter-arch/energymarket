@@ -53,13 +53,13 @@ export type ServiceCategory =
   | "other";
 
 export type PilotRegion =
-  | "moscow_region"
-  | "nizhny_novgorod"
-  | "samara"
-  | "sverdlovsk"
-  | "krasnoyarsk"
-  | "novosibirsk"
-  | "primorsky";
+  | "altai_republic"
+  | "mari_el"
+  | "udmurtia"
+  | "khakassia"
+  | "altai_krai"
+  | "oryol"
+  | "tambov";
 
 export type OrganizationStatus =
   | "pending"

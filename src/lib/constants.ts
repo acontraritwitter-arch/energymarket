@@ -78,23 +78,23 @@ export const ROLE_DESCRIPTIONS: Record<
 };
 
 export const PILOT_REGIONS: PilotRegion[] = [
-  "moscow_region",
-  "nizhny_novgorod",
-  "samara",
-  "sverdlovsk",
-  "krasnoyarsk",
-  "novosibirsk",
-  "primorsky",
+  "altai_republic",
+  "mari_el",
+  "udmurtia",
+  "khakassia",
+  "altai_krai",
+  "oryol",
+  "tambov",
 ];
 
 export const REGION_LABELS: Record<PilotRegion, string> = {
-  moscow_region: "Московская область",
-  nizhny_novgorod: "Нижегородская область",
-  samara: "Самарская область",
-  sverdlovsk: "Свердловская область",
-  krasnoyarsk: "Красноярский край",
-  novosibirsk: "Новосибирская область",
-  primorsky: "Приморский край",
+  altai_republic: "Республика Алтай",
+  mari_el: "Республика Марий Эл",
+  udmurtia: "Удмуртская Республика",
+  khakassia: "Республика Хакасия",
+  altai_krai: "Алтайский край",
+  oryol: "Орловская область",
+  tambov: "Тамбовская область",
 };
 
 export const CATEGORY_LABELS: Record<CommodityCategory, string> = {

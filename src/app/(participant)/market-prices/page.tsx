@@ -15,7 +15,7 @@ import { formatDateRu, formatPrice, regionLabel } from "@/lib/utils";
 
 export default function MarketPricesPage() {
   const { marketPrices } = useApp();
-  const [region, setRegion] = useState<PilotRegion>("moscow_region");
+  const [region, setRegion] = useState<PilotRegion>("altai_republic");
   const [priceType, setPriceType] = useState<ReferencePriceType>("rsv");
 
   const filtered = useMemo(
